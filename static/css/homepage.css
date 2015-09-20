@@ -1,0 +1,83 @@
+html {
+    height:100%;
+    width:100%;
+}
+
+body {
+  background: 'url("../images/cliff-mini.jpg") no-repeat center center fixed';
+  background-size: "cover";
+  -webkit-background-size: "cover";
+  -moz-background-size: "cover";
+  -o-background-size: "cover";
+  font-family: 'Open Sans', 'sans-serif';
+  height:100%;
+  width:100%;
+}
+
+a, a:link, a:visited, a:active, a:hover {
+  color: white;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+  background-color: transparent;
+}
+
+/* INTRO */
+.intro {
+    display: table;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.brand-heading {
+    font-size: 40px;
+    opacity:1;
+}
+
+.intro-text {
+    font-size: 18px;
+}
+
+/** FRONT PAGE INPUT **/
+.image-search {
+    background:transparent;
+    color:white;
+    border: 1px solid white;
+    border-radius:0;
+    font-weight:100;
+}
+.image-search-div {
+    margin:0 auto;
+}
+.image-search-button:hover {
+    cursor:pointer;
+    color:black;
+    background:white;
+}
+/** Make Home Page Search Placeholder White **/
+.image-search-field::-webkit-input-placeholder {
+    font-weight:100;
+    color: white;
+}
+/*FF 4-18*/
+.image-search-field:-moz-placeholder {
+    font-weight:100;
+    color: white;
+}
+/*FF 19+*/
+.image-search-field::-moz-placeholder {
+    font-weight:100;
+    color: white;
+}
+/*IE 10+*/
+.image-search-field:-ms-input-placeholder {
+    font-weight:100;
+    color: white;
+}
