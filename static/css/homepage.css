@@ -4,11 +4,11 @@ html {
 }
 
 body {
-  background: 'url("../images/cliff-mini.jpg") no-repeat center center fixed';
-  background-size: "cover";
-  -webkit-background-size: "cover";
-  -moz-background-size: "cover";
-  -o-background-size: "cover";
+  background: url("../images/eiffel.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   font-family: 'Open Sans', 'sans-serif';
   height:100%;
   width:100%;
@@ -39,6 +39,7 @@ a, a:link, a:visited, a:active, a:hover {
 .brand-heading {
     font-size: 40px;
     opacity:1;
+    color: white;
 }
 
 .intro-text {
@@ -49,7 +50,7 @@ a, a:link, a:visited, a:active, a:hover {
 .image-search {
     background:transparent;
     color:white;
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     border-radius:0;
     font-weight:100;
 }
@@ -58,8 +59,8 @@ a, a:link, a:visited, a:active, a:hover {
 }
 .image-search-button:hover {
     cursor:pointer;
-    color:black;
-    background:white;
+    /*color:black;*/
+    /*background:white;*/
 }
 /** Make Home Page Search Placeholder White **/
 .image-search-field::-webkit-input-placeholder {
