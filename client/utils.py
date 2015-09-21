@@ -10,7 +10,7 @@ def run_nmf():
 
 def get_tags(image_url):
 
-    headers = {"Authorization": "Bearer feNDrMZUC5zmvDY1aPSvzWwsID6xK8"}
+    headers = {"Authorization": "Bearer fvprKiHDx7UZgpvTNoONFVTqNBoyoO"}
     params = {'url': image_url}
     url = "https://api.clarifai.com/v1/tag/"
     r = requests.get(url, params=params, headers=headers)
