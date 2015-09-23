@@ -21,8 +21,8 @@
 5. If it tells you `admin` already exists then you can assume its done
 
 ####Django Project:
-1. `git clone https://github.com/briansudo/newadmit.git`
-2. `git pull https://github.com/briansudo/newadmit.git`
+1. `git clone https://github.com/briansudo/pic-locate.git`
+2. `git pull https://github.com/briansudo/pic-locate.git`
 
 3. `cd`
 
