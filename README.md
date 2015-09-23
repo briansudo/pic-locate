@@ -1,6 +1,6 @@
-#Project Atlas
+#Atlas®
 
-##### Created by (alphabetical order): Brian Su, Can Koc, Cem Koc in HackMIT September 2015.
+##### Created by (alphabetical order): [Brian Su](http://bsu.me/), [Can Koc](http://cankoc.org/), [Cem Koc](http://cemkoc.org/) in HackMIT September 2015.
 
 ##Onboarding
 
