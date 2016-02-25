@@ -15,7 +15,7 @@
     `source ~/.bash_profile`
 
 4. Open psql from Postgres.app
-    a. `CREATE DATABASE newadmit_db;`
+    a. `CREATE DATABASE atlas_db;`
     b. `CREATE USER admin WITH PASSWORD 'pizza_rocks_516!';`
 
 5. If it tells you `admin` already exists then you can assume its done
